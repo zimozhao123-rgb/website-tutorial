@@ -1,164 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Website</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zimo | Student Developer</title>
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      background: #f5f7fa;
-      color: #333;
-    }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-    header {
-      background: linear-gradient(135deg, #2563eb, #4f46e5);
-      color: white;
-      text-align: center;
-      padding: 80px 20px;
-    }
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
 
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
+header{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
 
-    header p {
-      font-size: 1.2rem;
-      opacity: 0.95;
-    }
+header h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
 
-    nav {
-      background: white;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,.08);
-      position: sticky;
-      top: 0;
-    }
+header p{
+    font-size:22px;
+    opacity:.9;
+}
 
-    nav a {
-      color: #2563eb;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
+nav{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    background:#111827;
+    padding:18px;
+    position:sticky;
+    top:0;
+}
 
-    section {
-      max-width: 900px;
-      margin: 50px auto;
-      padding: 0 20px;
-    }
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
 
-    .card {
-      background: white;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(0,0,0,.08);
-      margin-bottom: 25px;
-    }
+nav a:hover{
+    color:#60a5fa;
+}
 
-    h2 {
-      color: #2563eb;
-      margin-bottom: 15px;
-    }
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:70px 20px;
+}
 
-    ul {
-      padding-left: 20px;
-    }
+h2{
+    font-size:34px;
+    margin-bottom:20px;
+    color:#60a5fa;
+}
 
-    .button {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 22px;
-      background: #2563eb;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: 0.2s;
-    }
+.card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:25px;
+    margin-top:20px;
+}
 
-    .button:hover {
-      background: #1d4ed8;
-    }
+.project{
+    background:#334155;
+    border-radius:12px;
+    padding:20px;
+    margin-top:18px;
+    transition:.25s;
+}
 
-    footer {
-      text-align: center;
-      padding: 30px;
-      color: #666;
-    }
-  </style>
+.project:hover{
+    transform:translateY(-6px);
+}
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    background:#2563eb;
+    color:white;
+    padding:12px 24px;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+.button:hover{
+    background:#1d4ed8;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    background:#111827;
+    color:#94a3b8;
+}
+</style>
 </head>
+
 <body>
 
 <header>
-  <h1>Your Name</h1>
-  <p>Student • Creator • Future Developer</p>
+<h1 id="name">Zimo</h1>
+<p>Student • Aspiring Software Engineer • Future Big Tech Developer</p>
 </header>
 
 <nav>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
-  <div class="card">
-    <h2>About Me</h2>
-    <p>
-      Hi! I'm passionate about learning new things, building projects,
-      and exploring technology. Welcome to my personal website!
-    </p>
-  </div>
+<h2>About Me</h2>
+
+<div class="card">
+<p>
+Hi! I'm <strong>Zimo</strong>, a student passionate about coding and
+technology. I'm constantly learning new programming languages,
+building projects, and improving my problem-solving skills.
+
+My goal is to build software that helps people and eventually work
+at leading technology companies.
+</p>
+</div>
+
 </section>
 
 <section id="skills">
-  <div class="card">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML & CSS</li>
-      <li>JavaScript</li>
-      <li>Problem Solving</li>
-      <li>Learning New Technologies</li>
-    </ul>
-  </div>
+
+<h2>Skills</h2>
+
+<div class="card">
+<ul>
+<li>💻 HTML</li>
+<li>🎨 CSS</li>
+<li>⚡ JavaScript</li>
+<li>🐍 Python (Learning)</li>
+<li>☕ Java (Learning)</li>
+<li>🧩 Problem Solving</li>
+<li>📚 Always Learning</li>
+</ul>
+</div>
+
 </section>
 
 <section id="projects">
-  <div class="card">
-    <h2>Projects</h2>
-    <p>Add your favorite projects here with descriptions and screenshots.</p>
-  </div>
+
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Personal Portfolio Website</h3>
+<p>This website showcases my skills, projects, and experience.</p>
+</div>
+
+<div class="project">
+<h3>Future Project #2</h3>
+<p>Add your own coding projects here as you build them.</p>
+</div>
+
+<div class="project">
+<h3>Future Project #3</h3>
+<p>Include GitHub links, screenshots, and project descriptions.</p>
+</div>
+
 </section>
 
 <section id="contact">
-  <div class="card">
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-    <a class="button" href="mailto:your@email.com">Send Email</a>
-  </div>
+
+<h2>Contact</h2>
+
+<div class="card">
+<p>
+Interested in working together or learning more about my projects?
+</p>
+
+<p>Email: your.email@example.com</p>
+
+<p>GitHub: github.com/yourusername</p>
+
+<p>LinkedIn: linkedin.com/in/yourusername</p>
+
+<a class="button" href="mailto:your.email@example.com">Contact Me</a>
+
+</div>
+
 </section>
 
 <footer>
-  © 2026 Your Name. All rights reserved.
+© 2026 Zimo • Built with HTML, CSS & JavaScript
 </footer>
 
 <script>
-document.querySelector("h1").addEventListener("mouseenter", function() {
-  this.style.transform = "scale(1.05)";
-  this.style.transition = "0.25s";
+const name = document.getElementById("name");
+
+name.addEventListener("mouseenter", () => {
+    name.style.color = "#fbbf24";
+    name.style.transform = "scale(1.08)";
+    name.style.transition = "0.25s";
 });
 
-document.querySelector("h1").addEventListener("mouseleave", function() {
-  this.style.transform = "scale(1)";
+name.addEventListener("mouseleave", () => {
+    name.style.color = "white";
+    name.style.transform = "scale(1)";
 });
 </script>
 
